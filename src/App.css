@@ -1,0 +1,60 @@
+:root {
+  --color-212529: #151719;
+  --color-ffd333: #f56308;
+  --color-47ad24: #47ad24;
+  --color-e52e2e: #e52e2e;
+  --color-828599: #828599;
+  --color-3d464d: #ed464d;
+  --color-c3d4da: #ced4da;
+}
+
+.green {
+  color: var(--color-47ad24);
+  font-size: 14px;
+  font-family: Roboto !important;
+}
+.red {
+  color: var(--color-212529);
+  font-size: 14px;
+  font-family: Roboto !important;
+}
+.quill {
+  background-color: white;
+}
+
+.form-control {
+  box-shadow: none;
+  border-color: var(--color-c3d4da);
+}
+.title {
+  font: 28px;
+  font-family: Roboto !important;
+  color: var(--color-212529);
+}
+
+.sub-title {
+  font: 24px;
+  font-family: Roboto !important;
+  color: var(--color-212529);
+}
+.desc {
+  font: 14px;
+  font-family: Roboto !important;
+  color: var(--color-828599);
+}
+.main.ant-layout-content.css-dev-only-do-not-override-1rqnfsa{
+  margin: 0px !important;
+  min-height: auto !important;
+  padding: 20px !important;
+}
+
+
+:where(.css-dev-only-do-not-override-1rqnfsa).ant-menu-dark, :where(.css-dev-only-do-not-override-1rqnfsa).ant-menu-dark>.ant-menu, .ant-layout-sider-children{
+  background: #111213 !important;
+}
+:where(.css-dev-only-do-not-override-1rqnfsa).ant-menu-dark .ant-menu-item-selected, :where(.css-dev-only-do-not-override-1rqnfsa).ant-menu-dark>.ant-menu .ant-menu-item-selected{
+  background: white;
+  color: black;
+  font-size: 16px;
+  font-weight: 600;
+}
