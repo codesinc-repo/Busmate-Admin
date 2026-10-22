@@ -24,4 +24,3 @@ yarn-error.log*
 branch_structure.json
 temp_interactive_push.bat
 .gitignore
-temp_auto_push.bat
